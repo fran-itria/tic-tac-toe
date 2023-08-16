@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Table from './Component/Table/Table';
-type value = 'X' | 'O' | null
+import { value } from './type';
 
 function App() {
   const base: value[] = [
